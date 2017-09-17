@@ -1,0 +1,155 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#bg-tile {
+	width: 100%;
+	height: 40vh;
+}
+
+#background-frame {
+	width: 100%;
+	height: 60vh;
+}
+
+.container {
+	position: absolute;
+	height: 34em;
+	width: 94vw;
+	top: 5em;
+	left: 1em;
+	margin: 1em;
+	padding: 5px;
+}
+
+#phone {
+	position: relative;
+	float: left;
+}
+
+#phone-img {
+	position: relative;
+	left: 6em;
+	top: -2em;
+	width: 19em;
+	height: auto;
+}
+
+#box-frame {
+	position: absolute;
+	right: 6em;
+	top: 4em;
+	width: 40em;
+	height: auto;
+	
+}
+
+#logo {
+	position: absolute;
+	z-index: 5;
+	top: -1em;
+	right: 26em;
+}
+
+#login {
+	position: absolute;
+	z-index: 5;
+	top: -5px;
+	right: 105px;
+	background-image: url("../images/bgtile.png"); 
+	width: 9em;
+	height: 3em;
+	padding: 1px 5px;
+	border-radius: 5px;
+}
+
+#login p {
+	float: right;
+	position: relative;
+	top: -8px;
+	right: 14px;
+	color: #d0d7e2; 
+	font-weight: 500;
+	font-size: 20px;
+}
+
+#login-button {
+	float: left;
+	position: relative;
+	top: 8px;
+	left: 14px;
+	width: 2em;
+	height: auto;
+}
+
+#content {
+	width: 50em;
+	float: right;
+}
+
+#box-content {
+	position: absolute;
+	top: 7em;
+	right: 7em;
+	width: 36em;
+	padding: 5px;
+}
+
+#title {
+	width: 11em;
+	position: relative;
+	top: -30px;
+	font-size: 25px;
+	color: #244375;
+	font-weight: 500;
+}
+
+.about {
+	padding-right: 40px;
+	font-size: 18px;
+	position: relative;
+	top: -30px;
+}
+
+#apple-badge, #android-badge {
+	padding: 15px;
+	position: relative;
+	top: -2em;
+	left: -14px;
+	width: 13em;
+	height: 4em;
+}
+
+footer {
+	padding: 2em;
+	position: static;
+	margin-bottom: -50px;
+  	height: 20px;
+  	text-align: center;
+}
+
+a {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 8px;
+	text-decoration: none;
+	color: #3a64a8;
+}
+
+span {
+	padding: 14px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #c4c4c4;
+}
+
+/* modern clearfix */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+    line-height:0;
+}
+.cf:after {
+    clear:both;
+}
