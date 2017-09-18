@@ -5,7 +5,7 @@
 #bg-tile {
 	width: 100%;
 	height: 40vh;
-    background: linear-gradient(#416d99, #7ba4ce);
+    background: linear-gradient(#52769b,#48617a);  /*blue to light blue*/
 }
 
 #background-frame {
@@ -57,7 +57,7 @@
 	z-index: 5;
 	top: -5px;
 	right: 105px;
-	background: linear-gradient(#416d99, #7ba4ce);
+	background: linear-gradient(#52769b,#48617a); /*blue to light blue*/
 	width: 9em;
 	height: 3em;
 	padding: 1px 5px;
@@ -69,7 +69,7 @@
 	position: relative;
 	top: -8px;
 	right: 14px;
-	color: #d0d7e2; 
+	color: #d0d7e2; /*blue*/
 	font-weight: 500;
 	font-size: 20px;
 }
@@ -101,7 +101,7 @@
 	position: relative;
 	top: -30px;
 	font-size: 25px;
-	color: #244375;
+	color: #244375; /*blue*/
 	font-weight: 500;
 }
 
@@ -134,14 +134,14 @@ a {
 	font-weight: 500;
 	padding: 8px;
 	text-decoration: none;
-	color: #3a64a8;
+	color: #3a64a8;/*blue*/
 }
 
 span {
 	padding: 14px;
 	font-size: 14px;
 	font-weight: 500;
-	color: #c4c4c4;
+	color: #c4c4c4;/*light grey*/
 }
 
 /* modern clearfix */
