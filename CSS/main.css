@@ -156,3 +156,10 @@ span {
 .cf:after {
     clear:both;
 }
+
+/****** tablet *******/
+@media (max-width: 1024px) {
+	#phone-img{
+		display: none;
+	}
+}
