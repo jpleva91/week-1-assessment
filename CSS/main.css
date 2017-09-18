@@ -57,11 +57,13 @@
 	z-index: 5;
 	top: -5px;
 	right: 105px;
-	background: linear-gradient(#52769b,#48617a); /*blue to light blue*/
+	background: linear-gradient(#5b85b2,#48617a); /*blue to light blue*/
 	width: 9em;
 	height: 3em;
 	padding: 1px 5px;
 	border-radius: 5px;
+	border: 1px solid #304f70;
+	box-shadow: 0 1px 1px;
 }
 
 #login p {
