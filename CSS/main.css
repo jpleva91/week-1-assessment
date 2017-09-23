@@ -1,88 +1,86 @@
+/* 
+* === COLOR PALETTE ===
+* - Bahama Blue: #52769b -
+* - Regal Blue: #48617a -
+* - Hippie Blue: #5b85b2 -
+* - Azure: #3a64a8 -
+* - Silver: #c4c4c4 -
+*/
+
+/*
+* === TABLET ===
+*/
+
+@media (max-width: 1024px) {
+	#phone-img {
+		display: none;
+	}
+}
+
+/*
+* === DESKTOP ===
+*/
+
 * {
 	font-family: 'Montserrat', sans-serif;
 }
 
+/*
+* - Background -
+*/
+
 #bg-tile {
-	width: 100%;
+	background: linear-gradient(#52769b,#48617a);
 	height: 40vh;
-    background: linear-gradient(#52769b,#48617a);  /*blue to light blue*/
+  width: 100%;
 }
 
 #background-frame {
-	width: 100%;
 	height: 60vh;
+	width: 100%;
 }
 
+/*
+* - Container -
+*/
+
 .container {
-	position: absolute;
 	height: 34em;
-	width: 94vw;
-	top: 5em;
 	left: 1em;
 	margin: 1em;
 	padding: 5px;
+	position: absolute;
+	top: 5em;
+	width: 94vw;
 }
 
-#phone {
-	position: relative;
+/*
+* - Phone Container -
+*/
+
+#phone {	
 	float: left;
+	position: relative;
 }
 
 #phone-img {
+	height: auto;
+	left: 6em;	
 	position: relative;
-	left: 6em;
 	top: -2em;
 	width: 19em;
-	height: auto;
 }
 
+/*
+* - Content Container -
+*/
+
 #box-frame {
+	height: auto;
 	position: absolute;
 	right: 6em;
 	top: 4em;
 	width: 40em;
-	height: auto;
-	
-}
-
-#logo {
-	position: absolute;
-	z-index: 5;
-	top: -1em;
-	right: 26em;
-}
-
-#login {
-	position: absolute;
-	z-index: 5;
-	top: -5px;
-	right: 105px;
-	background: linear-gradient(#5b85b2,#48617a); /*blue to light blue*/
-	width: 9em;
-	height: 3em;
-	padding: 1px 5px;
-	border-radius: 5px;
-	border: 1px solid #304f70;
-	box-shadow: 0 1px 1px;
-}
-
-#login  {
-	float: right;
-	position: relative;
-	top: -8px;
-	right: 14px;
-	color: #d0d7e2; /*blue*/
-	font-weight: 500;
-	font-size: 20px;
-}
-
-#login-button {
-	float: left;
-	position: relative;
-	top: 8px;
-	left: 14px;
-	width: 2em;
-	height: auto;
 }
 
 #content {
@@ -98,52 +96,94 @@
 	padding: 5px;
 }
 
+/*
+* - Login Button - 
+*/
+
+#login {
+	background: linear-gradient(#5b85b2,#48617a);
+	border: 1px solid #48617a;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px;
+	color: #d0d7e2;
+	font-size: 20px;
+	font-weight: 500;
+	float: right;
+	height: 3em;	top: -5px;
+	padding: 1px 5px;
+	position: absolute;
+	right: 105px;
+	top: -8px;
+	width: 9em;
+	z-index: 5;
+}
+
+#login-button {
+	float: left;
+	left: 14px;
+	position: relative;
+	top: 8px;
+	width: 2em;
+}
+
+#logo {
+	position: absolute;
+	right: 26em;
+	top: -1em;
+	z-index: 5;
+}
+
 #title {
-	width: 11em;
+	color: #244375;
+	font-size: 25px;
+	font-weight: 500;
 	position: relative;
 	top: -30px;
-	font-size: 25px;
-	color: #244375; /*blue*/
-	font-weight: 500;
+	width: 11em;
 }
 
 .about {
-	padding-right: 40px;
 	font-size: 18px;
+	padding-right: 40px;
 	position: relative;
 	top: -30px;
 }
 
-#apple-badge, #android-badge {
+#apple-badge, 
+#android-badge {
+	height: 4em;
+	left: -14px;
 	padding: 15px;
 	position: relative;
 	top: -2em;
-	left: -14px;
 	width: 13em;
-	height: 4em;
 }
 
+/*
+* - Footer -
+*/
+
 footer {
+	height: 20px;
 	padding: 2em;
 	position: static;
 	margin-bottom: -50px;
-  	height: 20px;
-  	text-align: center;
+  text-align: center;
 }
 
 a {
+	color: #3a64a8;
 	font-size: 14px;
 	font-weight: 500;
 	padding: 8px;
 	text-decoration: none;
-	color: #3a64a8;/*blue*/
 }
 
 span {
-	padding: 14px;
+	color: #c4c4c4;
 	font-size: 14px;
 	font-weight: 500;
-	color: #c4c4c4;/*light grey*/
+	padding: 14px;
 }
 
 ul {
@@ -151,26 +191,8 @@ ul {
 }
 
 li {
-	position: relative;
 	left: -40px;
-	top: -10px;
 	padding: 10px 0px;
-}
-
-/* modern clearfix */
-.cf:before,
-.cf:after {
-    content:"";
-    display:table;
-    line-height:0;
-}
-.cf:after {
-    clear:both;
-}
-
-/****** tablet *******/
-@media (max-width: 1024px) {
-	#phone-img{
-		display: none;
-	}
+	position: relative;
+	top: -10px;
 }
